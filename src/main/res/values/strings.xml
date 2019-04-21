@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">Crypton</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string-array name="currencies">
+        <item>GBP</item>
+        <item>AUD</item>
+        <item>EUR</item>
+        <item>USD</item>
+    </string-array>
+
+    <string-array name="safelock">
+        <item>None</item>
+        <item>FingerPrint</item>
+        <item>Pin Lock</item>
+    </string-array>
+
+    <string-array name="top50_list">
+        <item>Bitcoin</item>
+        <item>Ripple</item>
+        <item>Ethereum</item>
+        <item>Bitcoin Cash</item>
+        <item>Stellar</item>
+        <item>EOS</item>
+        <item>Litecoin</item>
+        <item>Tether</item>
+        <item>Cardano</item>
+        <item>Monero</item>
+        <item>TRON</item>
+        <item>IOTA</item>
+        <item>Dash</item>
+        <item>Binance Coin</item>
+        <item>NEM</item>
+        <item>NEO</item>
+        <item>Ethereum Classic</item>
+        <item>Tezos</item>
+        <item>Zcash</item>
+        <item>Bitcoin Gold</item>
+        <item>VeChain</item>
+        <item>Ontology</item>
+        <item>OmiseGO</item>
+        <item>Dogecoin</item>
+        <item>0x</item>
+        <item>Decred</item>
+        <item>Qtum</item>
+        <item>Basic Attention Token</item>
+        <item>Lisk</item>
+        <item>Zilliqa</item>
+        <item>Bytecoin</item>
+        <item>Aeternity</item>
+        <item>Bitcoin Diamond</item>
+        <item>ICON</item>
+        <item>Bitshares</item>
+        <item>DigiByte</item>
+        <item>Nano</item>
+        <item>Steem</item>
+        <item>Chainlink</item>
+        <item>Siacoin</item>
+        <item>Pundi X</item>
+        <item>TrueUSD</item>
+        <item>Bytom</item>
+        <item>Aurora</item>
+        <item>Metaverse ETP</item>
+        <item>Waves</item>
+        <item>USD Coin</item>
+        <item>Verge</item>
+        <item>Populous</item>
+
+
+    </string-array>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_main2">MainCoinData</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="title_activity_tabbed_coin_data">TabbedCoinData</string>
+</resources>

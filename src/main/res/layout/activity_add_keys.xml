@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:padding="7dp"
+    tools:context="com.dheia.finalyear.AddKeys">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:padding="10dp"
+            android:text="Please Select Coin:" />
+
+        <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+            android:id="@+id/coinEntryNamesSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/white"
+            android:entries="@array/top50_list"
+            app:hintText="Please Select Coin" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/coinEntryNamesSpinner"
+            android:layout_marginTop="26dp"
+            android:background="@android:color/darker_gray"
+            android:cursorVisible="false"
+            android:padding="10dp"
+            android:text="Public Address:" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <EditText
+                android:id="@+id/edittextPublicKey"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView6"
+                android:background="@android:color/white"
+                android:cursorVisible="false"
+                android:ems="10"
+                android:hint="   Enter Public Address"
+                android:inputType="textPersonName"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+                android:textColorLink="@android:color/darker_gray"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/qr1"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp"
+                android:background="@android:color/white"
+                android:padding="30dp"
+                app:srcCompat="@drawable/barcode_small_icon" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/saveKeysButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/EditTextPrivateKEy"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="120dp"
+            android:background="@android:color/holo_green_dark"
+            android:text="Save"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</RelativeLayout>

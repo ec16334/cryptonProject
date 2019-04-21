@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dheia.finalyear.headerListview">
+
+    <TextView
+        android:id="@+id/coinNameHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_weight="1"
+        android:padding="0dp"
+        android:text="Coin"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/coinPriceHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_weight="1"
+        android:text="QTY"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/coinQTYHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:text="Price"
+        android:textAlignment="center" />
+</LinearLayout>

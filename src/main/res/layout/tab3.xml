@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="gravity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/cryptosafebutton"
+            android:layout_width="339dp"
+            android:layout_height="218dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/changellybutton"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@drawable/lockkicon" />
+
+        <ImageView
+            android:id="@+id/changellybutton"
+            android:layout_width="match_parent"
+            android:layout_height="200sp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="35dp"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            app:srcCompat="@drawable/changellyy" />
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView4"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignStart="@+id/lockSpinner"-->
+        <!--android:layout_below="@+id/lockSpinner"-->
+        <!--android:text="Desired Currency"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textSize="20dp" />-->
+    <!---->
+
+    <!--<Spinner-->
+        <!--android:id="@+id/currencySpinner"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="30dp"-->
+        <!--android:contextClickable="false"-->
+        <!--android:entries="@array/currencies"-->
+        <!--android:spinnerMode="dialog"-->
+        <!--android:textAlignment="center" />-->
+
+    <!--<Spinner-->
+        <!--android:id="@+id/lockSpinner"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/textView3"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="12dp"-->
+        <!--android:entries="@array/safelock"-->
+        <!--android:spinnerMode="dialog"-->
+        <!--android:textAlignment="center" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView3"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/currencySpinner"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:text="Crypto Safe Settings"-->
+        <!--android:textSize="20dp" />-->
+
+
