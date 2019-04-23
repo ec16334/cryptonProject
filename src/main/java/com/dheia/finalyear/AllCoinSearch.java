@@ -29,7 +29,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class AllCoinSearch extends AppCompatActivity {
-
+//testing
     private RequestQueue mQueue;
 
     RecyclerView.LayoutManager mlayoutManager;
